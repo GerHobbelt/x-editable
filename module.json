@@ -1,0 +1,8 @@
+{
+	"name": "jqmodules/x-editable",
+	"jqmodules/x-editable": {
+		"js": ["dist/bootstrap3-editable/js/bootstrap-editable.js"],
+		"css": ["dist/bootstrap3-editable/css/bootstrap-editable.css"],
+		"on": ["webmodules/bootstrap"]
+	}
+}

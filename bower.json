@@ -1,5 +1,5 @@
 {
-  "name": "x-editable",
+  "name": "jqmodules-x-editable",
   "version": "1.5.1",
   "ignore": [
     "CHANGELOG.txt",
@@ -15,6 +15,6 @@
     "test"
   ],
   "dependencies": {
-    "jquery": ">=1.6"
+    "webmodules-jquery": ">=1.6"
   }   
 }
