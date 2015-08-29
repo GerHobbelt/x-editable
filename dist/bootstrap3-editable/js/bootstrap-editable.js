@@ -1723,7 +1723,7 @@ Makes editable any HTML element on the page. Applied as jQuery method.
             if(this.input.option) {
                 this.input.option(key, value);
             }
-            
+
         },              
         
         /*
@@ -3890,7 +3890,7 @@ $(function(){
         },
         
         destroy: function() {
-            if(this.$input.data('select2')) {
+            if(this.$input && this.$input.data('select2')) {
                 this.$input.select2('destroy');
             }
         }
